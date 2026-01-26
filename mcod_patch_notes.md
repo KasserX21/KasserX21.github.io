@@ -2,7 +2,7 @@
 layout: page
 title: "About Me"
 ---
-Overdie Big Boy Update -- Alpha 2 Reworks
+# Overdie Big Boy Update -- Alpha 2 Reworks
 
 ## General: Damage Types
 
@@ -165,20 +165,13 @@ Current "Opportunist" radicals - Yzma and Symmetria
 
 __Difficulty Changes__
 
-WidWo: 2 -> 3
-Axis: 3 -> 2
-Tsikhesimagre: 2 -> 3
-Syndrome: 4 -> 3
-Black Widow: 3 -> 4
-Chronokinesis: 3 -> 4
-NEW HOUSE: 4 -> 3
-Elizabeth: 3 -> 4
-Kiriko: 3 -> 2
-Laverna: 2 -> 3
-
-
-ADD SCOREBOARD
-
-ELIZSUPER
-ELIZCALIB
-ELIZOFFSET
+- WidWo: 2 -> 3
+- Axis: 3 -> 2
+- Tsikhesimagre: 2 -> 3
+- Syndrome: 4 -> 3
+- Black Widow: 3 -> 4
+- Chronokinesis: 3 -> 4
+- NEW HOUSE: 4 -> 3
+- Elizabeth: 3 -> 4
+- Kiriko: 3 -> 2
+- Laverna: 2 -> 3
