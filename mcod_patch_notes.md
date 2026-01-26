@@ -2,7 +2,8 @@
 layout: page
 title: "About Me"
 ---
-# Overdie Big Boy Update -- Alpha 2 Reworks
+# Overdie Big Boy Update -- Alpha 2 Patch Notes
+January 26, 2026
 
 ## General: Damage Types
 
