@@ -103,7 +103,7 @@ title: "About Me"
     <div class="card">
       <h2>Global Damage Changes</h2>
 
-      <h3>No Knockback</h3>
+      <h3>The following damage types now have no knockback:</h3>
       <ul>
         <li>Falling Block</li>
         <li>Torture Turret</li>
@@ -116,7 +116,7 @@ title: "About Me"
         <li>Spike Factory Spikes</li>
       </ul>
 
-      <h3>Ignore Armor</h3>
+      <h3>The following damage types now ignore armor:</h3>
       <ul>
         <li>Falling Block</li>
         <li>Damage Boosts</li>
@@ -158,16 +158,20 @@ title: "About Me"
       <div class="subsection">
         <h3>Shockwave</h3>
         <ul>
-          <li>No longer directly damages enemies in front</li>
-          <li>Creates an explosion behind you to propel forward</li>
-          <li>Immune to fall damage for 3 seconds</li>
-          <li>0.8 second delay before losing all speed</li>
+          <li>No longer directly damages enemies in front of you</li>
+          <li>Creates an explosion behind you to propel you forward</li>
+          <li>Renders you immune to fall damage for 3 seconds</li>
+          <li>Added a 0.8 second delay before losing all speed</li>
         </ul>
       </div>
 
       <div class="note">
-        Ever since 41–50, Rev Runner felt dated. This rework modernizes the kit, improves synergy,
-        and adds clearer feedback. Laser Spear replaces a weapon that couldn’t keep up with extreme movement speed.
+        Ever since 41-50, Rev Runner has felt like a product of his time, where we were just getting to 
+		understand the more advanced intricacies of Minecraft coding and messing around. This rework is 
+		meant to de-jankify and modernize the character, by making the abilities work more in tandem with 
+		each other, and give more feedback on what they're doing to the player. The spear was added to be 
+		an exciting new addition made possible by the Big Boy update, as well as replacing his old weapon 
+		that didn't work well with the character literally moving faster than the server can handle.
       </div>
     </div>
 
@@ -187,6 +191,7 @@ title: "About Me"
       <ul>
         <li>Cooldown reduced from 1.8s to 1s</li>
         <li>Reach increases by 25% per level</li>
+		<li>Damage starts at 3 and increases by 2 per level</li>
         <li>No longer stuns</li>
       </ul>
 
@@ -196,7 +201,7 @@ title: "About Me"
         <li>Stun damage conditions removed</li>
         <li>Must fully charge to stun</li>
         <li>Reach increases by 15% per level</li>
-        <li>Damage scales per level</li>
+        <li>Damage starts at 1 and increases by 1 per level</li>
         <li>Stun duration scales with Star Level</li>
       </ul>
 
@@ -206,8 +211,70 @@ title: "About Me"
       </ul>
 
       <div class="note">
-        Pinja’s size and reach now better match the source. Bat and Stun Bat were split to reduce frustration
-        and create clearer combat roles.
+        We've been brainstorming Pinja's modernization for a while, mostly with 
+		their size and reach growing to be more accurate to the source. Bat and 
+		Stun Bat got separated since the old version was a little annoying to 
+		play with and against since it was a pretty arbitrary condition and it 
+		sucks getting stunned. So we've separated them, into the primary damage 
+		dealing and bomb-enabling Normal Bat, and the play-enabling Stun Bat.
+      </div>
+    </div>
+	
+	<div class="card">
+      <h2>Laverna</h2>
+
+      <h3>Corruption Beam</h3>
+      <ul>
+        <li>Damage reduced from 6 to 2</li>
+		<li>Firerate increased from 0.8 to 2.5 per second</li>
+		<li>Now accelerates the cooldown of "Laverna's Checklist" by 100%</li>
+      </ul>
+
+      <h3>Life Fruit</h3>
+      <ul>
+        <li>Cooldown per life fruit increased from 6 to 8 seconds</li>
+      </ul>
+
+      <h3>Laverna's Formula</h3>
+      <ul>
+        <li>No longer uses the weird damage boost thing</li>
+        <li>Now reduces the target's armor by 10 and removes all armor toughness for the duration</li>
+        <li>Also steals the enemy's overhealth and applies it to yourself</li>
+      </ul>
+
+      <h3>Fairy Wings</h3>
+      <ul>
+        <li>Ability removed</li>
+		<li>Laverna is now passively equipped with an elytra that disables gravity during use</li>
+      </ul>
+
+      <div class="note">
+        Laverna was a very uninteractive character, chosen only for the sole purpose of spamming life fruits. With this rework, we hope that her other abilities will get used more, as well as giving her a more active playstyle that the player is incentivized to utilize.
+
+      </div>
+    </div>
+	
+	<div class="card">
+      <h2>Lady Doppler</h2>
+
+      <h3>Forecast</h3>
+      <ul>
+        <li>"Attack in the future" feature removed</li>
+      </ul>
+
+      <h3>Cold Front</h3>
+      <ul>
+        <li>Damage increased from 3 to 5</li>
+      </ul>
+
+      <h3>Lightning Strike</h3>
+      <ul>
+        <li>Cooldown reduced from 5 seconds to 3 seconds</li>
+      </ul>
+
+      <div class="note">
+        Forecast has been a buggy nightmare, so we decided to ultimately do away with it, and buff the other aspects of her kit to make her an option for longer-range combat, a style that the Combat class is less populated with.
+
       </div>
     </div>
 
@@ -217,39 +284,84 @@ title: "About Me"
       <h3>DANGEROOOOUS JUNGLE</h3>
       <ul>
         <li>Duration reduced from 10s to 5s</li>
-        <li>Now grants Speed II near spawner</li>
+        <li>Now provides Elizabeth with Speed II near the spawner</li>
+      </ul>
+	  
+	  <h3>BATTLE NO. 1</h3>
+      <ul>
+        <li>Removed.</li>
       </ul>
 
-      <h3>MARVELOUS (New)</h3>
+      <h3>MARVELOUS (Replaces Battle No. 1)</h3>
       <ul>
         <li>Cooldown: 4 seconds</li>
         <li>Resistance X for 1 tick</li>
-        <li>Tick-perfect parries grant bonuses and overhealth</li>
-        <li>Marvelous Parry resets MAGiC4LG1RL M3GA S7R1KE!</li>
-        <li>Boosts LETHAL;WEAPON and SUPER REACTOR interactions</li>
+        <li>Receiving damage during the tick provides a Marvelous Parry</li>
+        <li>Having received damage 1 tick before or after use can provide a Great Parry</li>
+        <li>Marvelous and Great Parries both provide Elizabeth with 4 overhealth</li>
+		<li>Marvelous Parries reset the cooldown for MAGiC4LG1RL M3GA S7R1KE!</li>
+		<li>Marvelous Parries make the next shot of LETHAL;WEAPON twice as fast to fire</li>
+		<li>Getting a Marvelous Parry during SUPER REACTOR doubles the damage of the next shot</li>
       </ul>
 
       <h3>LETHAL;WEAPON</h3>
       <ul>
-        <li>Damage ranges extended</li>
-        <li>Minimum damage increased</li>
+        <li>12 damage range increased from 5 to 12 blocks</li>
+        <li>6 damage range increased from 10 to 20 blocks</li>
+		<li>Minimum damage increased from 1 to 3</li>
         <li>Maximum range increased to 30 blocks</li>
       </ul>
 
       <div class="note">
-        Elizabeth now leans harder into ranged combat. Battle No. 1 was replaced with a rhythm-based parry
-        to better fit her identity and add skill expression.
+        Elizabeth was pretty hard to balance. Surprisingly, she was really on a knife's edge, 
+		where making her railgun do more damage broke her and nerfing Battle No. 1 made her too weak. 
+		The balance patterns of the 1.20 days pushed her too much into the close-range brawler direction, 
+		which was incentivized due to the existence of Battle No. 1. We hope that with these balance changes, 
+		Elizabeth will be more incentivized to play at range as her tankiness is much reduced. We replaced 
+		Battle No. 1 with a tick-perfect parry, to fit more with her identity as a rhythm game character, 
+		and to give a little strength in close-range combat to make her not super weak to dives.
+
       </div>
+    </div>
+	
+	<div class="card">
+      <h2>Lady X</h2>
+
+      <h3>Brand X Product Selection</h3>
+      <ul>
+        <li>All applied effects now extend to mobs</li>
+      </ul>
     </div>
 
     <div class="card">
-      <h2>Subclass & Difficulty Changes</h2>
+      <h2>Categorizational Changes</h2>
 
-      <h3>New Subclasses</h3>
+      <h3>Defender Subclass Changes</h3>
       <ul>
-        <li><strong>Siege</strong> – Extreme aggression and initiation</li>
-        <li><strong>Breaker</strong> – Combat-focused rule-benders</li>
-        <li><strong>Opportunist</strong> – High-impact, high-downtime kits</li>
+        <li><strong>Protector</strong> – Removed.</li>
+        <li><strong>Siege</strong> – Focus on extreme aggression to initiate attacks through sheer force. Can easily initiate and become the center of the fight</li>
+      </ul>
+	  
+	  <h3>Radical Subclass Changes</h3>
+      <ul>
+        <li><strong>Bruiser</strong> – Removed.</li>
+		<li><strong>Wild Card</strong> – Removed.</li>
+        <li><strong>New: Breaker</strong> – Generally more combat-focused, but have potential to circumvent traditional combat rules. Their gameplan is more readable to other players.</li>
+		<li><strong>New: Opportunist</strong> – They have one trick up their sleeve that can quickly end a fight, but have a relatively long downtime.</li>
+      </ul>
+	  
+	  <h3>Subclass Adjustments</h3>
+      <ul>
+        <li>Axis: Brawler → Siege</li>
+        <li>Tails: Obstacle → Siege</li>
+		<li>Tsikhesimagre: Protector → Brawl</li>
+		<li>Fries: Bruiser → Breaker</li>
+		<li>Elizabeth: Wild Card → Breaker</li>
+		<li>Chronokinesis: Disruptor → Breaker</li>
+		<li>Symmetria: Disruptor → Opportunist</li>
+		<li>Yzma: Wild Card → Opportunist</li>
+        <li>Lady Doppler: Controller → Poke</li>
+        <li>Aloysius O'Hare: Healer → Utility Support</li>
       </ul>
 
       <h3>Difficulty Adjustments</h3>
@@ -258,6 +370,13 @@ title: "About Me"
         <li>Laverna: 2 → 3</li>
         <li>Chronokinesis: 3 → 4</li>
         <li>Axis: 3 → 2</li>
+		<li>Tsikhesimagre: 2 → 3</li>
+		<li>Black Widow: 3 → 4</li>
+		<li>Chronokinesis: 3 → 4</li>
+		<li>NEW HOUSE: 4 → 3</li>
+		<li>Elizabeth: 3 → 4</li>
+		<li>Kiriko: 3 → 2</li>
+		<li>Laverna: 2 → 3</li>
       </ul>
     </div>
   </div>
