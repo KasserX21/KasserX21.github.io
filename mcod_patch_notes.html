@@ -1,0 +1,265 @@
+---
+layout: page
+title: "About Me"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Patch Notes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --bg-gradient: linear-gradient(135deg, #0f4c81, #1e88e5);
+      --card-bg: rgba(255, 255, 255, 0.95);
+      --accent: #1e88e5;
+      --text-dark: #1f2933;
+      --text-muted: #6b7280;
+      --note-bg: #eef5ff;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background: var(--bg-gradient);
+      color: var(--text-dark);
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 14px;
+      padding: 24px 28px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 8px;
+    }
+
+    .card h3 {
+      margin-bottom: 6px;
+      color: var(--accent);
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 6px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .note {
+      margin-top: 16px;
+      padding: 14px 16px;
+      background: var(--note-bg);
+      border-left: 4px solid var(--accent);
+      border-radius: 6px;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .subsection {
+      margin-top: 20px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Patch Notes</h1>
+
+    <div class="card">
+      <h2>Global Damage Changes</h2>
+
+      <h3>No Knockback</h3>
+      <ul>
+        <li>Falling Block</li>
+        <li>Torture Turret</li>
+        <li>Dream Sequence Fossilization</li>
+        <li>Dream Sequence Triple Touch</li>
+        <li>Lady Doppler Wind Chill</li>
+        <li>Flo Abduction</li>
+        <li>Elizabeth Railgun</li>
+        <li>Enobia Life Grip</li>
+        <li>Spike Factory Spikes</li>
+      </ul>
+
+      <h3>Ignore Armor</h3>
+      <ul>
+        <li>Falling Block</li>
+        <li>Damage Boosts</li>
+        <li>Dream Sequence Fossilization</li>
+        <li>Lady Doppler Wind Chill</li>
+        <li>Elizabeth Railgun</li>
+        <li>Flo Abduction</li>
+        <li>Enobia Life Grip</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Rev Runner</h2>
+
+      <div class="subsection">
+        <h3>Momentum</h3>
+        <ul>
+          <li>Now only applies to solid blocks</li>
+          <li>Passive speed gain doubled</li>
+          <li>Max speed reduced from 43 m/s to 24 m/s</li>
+        </ul>
+      </div>
+
+      <div class="subsection">
+        <h3>Laser Spear</h3>
+        <ul>
+          <li>New main weapon</li>
+        </ul>
+      </div>
+
+      <div class="subsection">
+        <h3>All Rev'd Up</h3>
+        <ul>
+          <li>Cooldown: 18 seconds</li>
+          <li>Additional speed increased from 1 m/s to 10 m/s</li>
+        </ul>
+      </div>
+
+      <div class="subsection">
+        <h3>Shockwave</h3>
+        <ul>
+          <li>No longer directly damages enemies in front</li>
+          <li>Creates an explosion behind you to propel forward</li>
+          <li>Immune to fall damage for 3 seconds</li>
+          <li>0.8 second delay before losing all speed</li>
+        </ul>
+      </div>
+
+      <div class="note">
+        Ever since 41–50, Rev Runner felt dated. This rework modernizes the kit, improves synergy,
+        and adds clearer feedback. Laser Spear replaces a weapon that couldn’t keep up with extreme movement speed.
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Pinja</h2>
+
+      <ul>
+        <li>Base size reduced by 15%</li>
+      </ul>
+
+      <h3>Star Collecting</h3>
+      <ul>
+        <li>Base size increased by 10% per level</li>
+      </ul>
+
+      <h3>Bat</h3>
+      <ul>
+        <li>Cooldown reduced from 1.8s to 1s</li>
+        <li>Reach increases by 25% per level</li>
+        <li>No longer stuns</li>
+      </ul>
+
+      <h3>Stun Bat</h3>
+      <ul>
+        <li>Cooldown increased to 2.4s</li>
+        <li>Stun damage conditions removed</li>
+        <li>Must fully charge to stun</li>
+        <li>Reach increases by 15% per level</li>
+        <li>Damage scales per level</li>
+        <li>Stun duration scales with Star Level</li>
+      </ul>
+
+      <h3>Bomb</h3>
+      <ul>
+        <li>New particle and sound cue 1 second before explosion</li>
+      </ul>
+
+      <div class="note">
+        Pinja’s size and reach now better match the source. Bat and Stun Bat were split to reduce frustration
+        and create clearer combat roles.
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Elizabeth</h2>
+
+      <h3>DANGEROOOOUS JUNGLE</h3>
+      <ul>
+        <li>Duration reduced from 10s to 5s</li>
+        <li>Now grants Speed II near spawner</li>
+      </ul>
+
+      <h3>MARVELOUS (New)</h3>
+      <ul>
+        <li>Cooldown: 4 seconds</li>
+        <li>Resistance X for 1 tick</li>
+        <li>Tick-perfect parries grant bonuses and overhealth</li>
+        <li>Marvelous Parry resets MAGiC4LG1RL M3GA S7R1KE!</li>
+        <li>Boosts LETHAL;WEAPON and SUPER REACTOR interactions</li>
+      </ul>
+
+      <h3>LETHAL;WEAPON</h3>
+      <ul>
+        <li>Damage ranges extended</li>
+        <li>Minimum damage increased</li>
+        <li>Maximum range increased to 30 blocks</li>
+      </ul>
+
+      <div class="note">
+        Elizabeth now leans harder into ranged combat. Battle No. 1 was replaced with a rhythm-based parry
+        to better fit her identity and add skill expression.
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Subclass & Difficulty Changes</h2>
+
+      <h3>New Subclasses</h3>
+      <ul>
+        <li><strong>Siege</strong> – Extreme aggression and initiation</li>
+        <li><strong>Breaker</strong> – Combat-focused rule-benders</li>
+        <li><strong>Opportunist</strong> – High-impact, high-downtime kits</li>
+      </ul>
+
+      <h3>Difficulty Adjustments</h3>
+      <ul>
+        <li>Elizabeth: 3 → 4</li>
+        <li>Laverna: 2 → 3</li>
+        <li>Chronokinesis: 3 → 4</li>
+        <li>Axis: 3 → 2</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
